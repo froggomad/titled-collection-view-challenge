@@ -45,7 +45,8 @@ model controller group and a view controller group.
 a group for each layer, especially if your files are named appropriately.
 
 `🔺IMPORTANT!` If you move the `info.plist` file into a group, and not a *group 
-without folder*, you will receive a build error.
+without folder*, you will receive a build error. This can be resolved by [changing
+the info.plist's location in the project's build settings](https://stackoverflow.com/questions/58103585/xcode-11-cant-reallocate-info-plist-into-a-group).
 
 *Your challenge*: 
 
