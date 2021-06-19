@@ -140,3 +140,7 @@ the view should update with its information.
 
 Remember to make small, meaningful commits. Once you have a view that represents the selected item and 
 you've styled it to your liking, push your commits.
+
+Here's a sample of a working Detail View
+
+![detailView](Media/working.gif)
