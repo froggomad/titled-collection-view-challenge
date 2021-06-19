@@ -84,7 +84,7 @@ the project builds and runs!
 
 Once you're finished, push your commits.
 
-# Challenge #3 - More Duplication!
+## Challenge #3 - More Duplication!
 
 Similar to challenge #2, our protocol has 2 *very* similar methods. As we add on to our project, 
 it's likely that we'll end up duplicating more and more code in these 2 methods as we implement 
