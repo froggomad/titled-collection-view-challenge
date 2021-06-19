@@ -97,8 +97,9 @@ Can you think of a way of consolidating these 2 methods?
 🧐 I think I mentioned in an earlier challenge that one of the solutions may help with a later one.
 
 Remember to make meaningful commits as you go. Even if the solution isn't fully working, it can help
-to have a record of what you've done to get to where you are if you get stuck. Once you've somehow combined
-the 2 methods, remember to make sure the project functions as expected! (building and running included 🤪)
+to have a record of what you've done to get to where you are if you get stuck. Once you've somehow 
+combined the 2 methods, remember to make sure the project functions as expected! (building and running 
+included 🤪)
 
 ## Challenge #4 - Visual bugs!
 ![black bars](Media/cell%20glitch.png)
@@ -106,15 +107,35 @@ the 2 methods, remember to make sure the project functions as expected! (buildin
 `Note:` This is a 2 part challenge
 
 ### Part 1
-Where are those black bars coming from?!? It's likely that we forgot to give one of our elements a background color.
-When creating elements programmatically, it's necessary to provide the backgroundColor. This is a chance for you to
-get creative as well. You could use the same color for each type, or you could choose to add a color property to your
-`Fruit` and `Vegetable` and use that to differentiate the 2 different types of produce.
+Where are those black bars coming from?!? It's likely that we forgot to give one of our elements a 
+background color. When creating elements programmatically, it's necessary to provide the backgroundColor.
+This is a chance for you to get creative as well. You could use the same color for each type, or you could 
+choose to add a color property to your `Fruit` and `Vegetable` and use that to differentiate the 2 different
+types of produce.
 
 ### Part 2 (optional)
-This is also probably means since there aren't any black bars at top and bottom that our cells aren't sized correctly.
-Can you find a way to create uniform spacing around the cell? This is optional because you may prefer for the cell to be
-full height, and not full width.
+This is also probably means since there aren't any black bars at top and bottom that our cells aren't sized 
+correctly. Can you find a way to create uniform spacing around the cell? This is optional because you may 
+prefer for the cell to be full height, and not full width.
 
-Remember to make meaningful commits as you go. Once you've completed what you want to complete, the project builds and runs,
-and is working as you expect it to, push your changes.
+Remember to make meaningful commits as you go. Once you've completed what you want to complete, the project 
+builds and runs, and is working as you expect it to, push your changes.
+
+## Challenge #5 - the final challenge!
+Now that we've gotten rid of code duplication, let's add our new feature. What we want to do is add a simple
+detail view. A detail view is just a further representation of a selected item. So when the user selects a 
+fruit or vegetable, we want to present them with more information on the object they've selected.
+
+Feel free to get as creative as you want with it. At a mimimum, your detail view should contain the item's 
+description. If you added a color property previously, it might be cool to use that as the detail view's 
+background color. You can also add images and whatever other elements to this view as you'd like.
+
+In order for this to be considered working properly, you must devise a way for the user to tap on an item
+and be presented with more information about *just that item*.
+
+A simple implementation would be to create a new ViewController (or 2 if you couldn't figure out how to 
+remove duplication previously), give it a label and `yourProduceType` property. When the produce is set, 
+the view should update with its information.
+
+Remember to make small, meaningful commits. Once you have a view that represents the selected item and 
+you've styled it to your liking, push your commits.
