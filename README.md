@@ -48,7 +48,29 @@ a group for each layer, especially if your files are named appropriately.
 without folder*, you will receive a build error. This can be resolved by [changing
 the info.plist's location in the project's build settings](https://stackoverflow.com/questions/58103585/xcode-11-cant-reallocate-info-plist-into-a-group).
 
-*Your challenge*: 
+*Your challenge*:
 
 Armed with the above knowledge, organize your files into groups, build and run the
 project, and when it's running as expected, make a commit, and push.
+
+## Challenge #2
+
+The code for our Fruit and Vegetable description is duplicated! There are a number
+of ways to resolve this. One way may help resolve another challenge as well.
+
+Here are some ideas:
+
+Can you use a protocol to join the 2 types together? If it's possible, you could then 
+extend the protocol and provide default implementation for the property.
+
+Can you create an extension on String with a method that both types can use?
+
+Can you create a global method that somehow solves this problem? (least recommended)
+
+*Your challenge*:
+
+Find a way of reducing code duplication by consolodating the logic for the description of 
+`Fruit` and `Vegetable`. Remember to make small, meaningful commits - and remember to make sure
+the project builds and runs! 
+
+Once you're finished, push your commits.
