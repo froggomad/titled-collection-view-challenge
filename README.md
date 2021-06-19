@@ -111,7 +111,8 @@ Where are those black bars coming from?!? It's likely that we forgot to give one
 background color. When creating elements programmatically, it's necessary to provide the backgroundColor.
 This is a chance for you to get creative as well. You could use the same color for each type, or you could 
 choose to add a color property to your `Fruit` and `Vegetable` and use that to differentiate the 2 different
-types of produce.
+types of produce. Remember to update your `viewModel` with any properties you add to your model that you want
+to display.
 
 ### Part 2 (optional)
 This is also probably means since there aren't any black bars at top and bottom that our cells aren't sized 
