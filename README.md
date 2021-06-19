@@ -10,6 +10,12 @@ The goal of this challenge is to get you used to staying within a
 given architecture's rules (MVC in this case) while using good
 coding and Software Development practices.
 
+`NOTE:` You are *not* expected to be able to complete these challenges
+based on information contained solely in the article that likely brought
+you here. You are expected to have to do research - that's probably 80% of
+our job as Developers anyway. I will give you ideas and maybe hints, but
+the crux of the implementation is up to you.
+
 # Instructions
 
 1. [Fork this repo](https://guides.github.com/activities/forking/)
@@ -77,3 +83,38 @@ Find a way of reducing code duplication by consolodating the logic for the descr
 the project builds and runs! 
 
 Once you're finished, push your commits.
+
+# Challenge #3 - More Duplication!
+
+Similar to challenge #2, our protocol has 2 *very* similar methods. As we add on to our project, 
+it's likely that we'll end up duplicating more and more code in these 2 methods as we implement 
+them for different types. We'll also need to add a new method to our protocol's definition.
+
+![protocol duplication](Media/protocol%20duplication.png)
+
+Can you think of a way of consolidating these 2 methods?
+
+🧐 I think I mentioned in an earlier challenge that one of the solutions may help with a later one.
+
+Remember to make meaningful commits as you go. Even if the solution isn't fully working, it can help
+to have a record of what you've done to get to where you are if you get stuck. Once you've somehow combined
+the 2 methods, remember to make sure the project functions as expected! (building and running included 🤪)
+
+## Challenge #4 - Visual bugs!
+![black bars](Media/cell%20glitch.png)
+
+`Note:` This is a 2 part challenge
+
+### Part 1
+Where are those black bars coming from?!? It's likely that we forgot to give one of our elements a background color.
+When creating elements programmatically, it's necessary to provide the backgroundColor. This is a chance for you to
+get creative as well. You could use the same color for each type, or you could choose to add a color property to your
+`Fruit` and `Vegetable` and use that to differentiate the 2 different types of produce.
+
+### Part 2 (optional)
+This is also probably means since there aren't any black bars at top and bottom that our cells aren't sized correctly.
+Can you find a way to create uniform spacing around the cell? This is optional because you may prefer for the cell to be
+full height, and not full width.
+
+Remember to make meaningful commits as you go. Once you've completed what you want to complete, the project builds and runs,
+and is working as you expect it to, push your changes.
