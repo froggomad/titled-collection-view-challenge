@@ -130,7 +130,7 @@ enum Fruit: String, CaseIterable {
     var description: String {
         var name: String = ""
         
-        for char in String(describing: self) {
+        for char in String(describing: rawValue) {
             let strChar = String(char)
             if strChar != strChar.uppercased() {
                 name.append(strChar)
@@ -156,7 +156,7 @@ enum Vegetable: String, CaseIterable {
     var description: String {
         var name: String = ""
         
-        for char in String(describing: self) {
+        for char in String(describing: rawValue) {
             let strChar = String(char)
             if strChar != strChar.uppercased() {
                 name.append(strChar)
