@@ -65,7 +65,10 @@ extend the protocol and provide default implementation for the property.
 
 Can you create an extension on String with a method that both types can use?
 
-Can you create a global method that somehow solves this problem? (least recommended)
+Can you create an all-encompassing type for `Produce` and maintain good separation of concerns?<br>
+`Warning:` this can lead to pretty bloated objects as you add on to a project.
+
+Can you create a global function that somehow solves this problem? (least recommended)
 
 *Your challenge*:
 
