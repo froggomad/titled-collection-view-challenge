@@ -25,7 +25,7 @@ but the project should at least build and run in each commit. It's preferred
 that all tests are passing (when unit tests are enabled) and all features
 behave as expected, but this isn't necessarily feasible for every single
 commit in every single project.
-3. Double check that the project builds and runs before you push your commit 😉
+3. Double check that the project builds and runs before you push your commits 😉
 4. When you've finished all challenges, [create a Pull Request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 back to the [main challenge repository](https://github.com/froggomad/titled-collection-view-challenge)
 5. Comment on the article where you found this challenge: "I completed the challenge: \<link to Pull Request\>"
