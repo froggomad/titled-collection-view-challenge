@@ -1,6 +1,6 @@
 # TitledCollectionView Challenge
 Thanks for taking the time to read (and hopefully follow along with) 
-my article on making MVC less massive. In this challenge, you will 
+my article on [making MVC less massive](https://medium.com/geekculture/making-mvc-less-massive-and-more-reusable-cf731154ffbe). In this challenge, you will 
 clean up the starter project by organizing everything into separate 
 files and groups, get rid of duplicated code, and add a detail view
 
